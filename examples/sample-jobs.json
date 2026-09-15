@@ -1,0 +1,125 @@
+{
+  "_comment": "脱敏示例数据，公司与岗位均为虚构，仅用于演示 score.py 的用法。",
+  "jobs": [
+    {
+      "id": "demo-001",
+      "company": "示例视觉科技有限公司",
+      "title": "AIGC 视觉设计师",
+      "city": "成都",
+      "district": "高新区天府五街",
+      "url": "https://example.com/careers/aigc-visual",
+      "email": "hr@example.com",
+      "salary": "8-12K",
+      "commute_minutes": 38,
+      "commute_note": "· 地铁 1 号线",
+      "weekend": "double",
+      "insurance": "full",
+      "scores": {
+        "match": 88,
+        "company": 80,
+        "work": 85,
+        "welfare": 78,
+        "fresh": 90,
+        "reputation": 75
+      },
+      "notes": "岗位要求独立完成 AI 视觉内容产出，与作品集方向一致",
+      "risks": []
+    },
+    {
+      "id": "demo-002",
+      "company": "示例文化传播有限公司",
+      "title": "新媒体运营（急聘）",
+      "city": "成都",
+      "district": "锦江区春熙路",
+      "url": "https://example.org/job/12345",
+      "email": "",
+      "salary": "6-9K",
+      "commute_minutes": 29,
+      "commute_note": "· 地铁 2 号线",
+      "weekend": "unknown",
+      "insurance": "full",
+      "scores": {
+        "match": 82,
+        "company": 72,
+        "work": 78,
+        "welfare": 70,
+        "fresh": 85,
+        "reputation": 68
+      },
+      "notes": "JD 未提及双休，需在初筛时确认",
+      "risks": ["双休未在 JD 中写明"]
+    },
+    {
+      "id": "demo-003",
+      "company": "示例网络科技有限公司",
+      "title": "AI 产品助理",
+      "city": "成都",
+      "district": "武侯区天府大道",
+      "url": "https://example.net/join/us",
+      "email": "jobs@example.net",
+      "salary": "7-10K",
+      "commute_minutes": 52,
+      "commute_note": "· 地铁 1 号线转 5 号线",
+      "weekend": "double",
+      "insurance": "full",
+      "scores": {
+        "match": 90,
+        "company": 85,
+        "work": 88,
+        "welfare": 80,
+        "fresh": 92,
+        "reputation": 80
+      },
+      "notes": "综合分很高，但通勤超出阈值",
+      "risks": []
+    },
+    {
+      "id": "demo-004",
+      "company": "示例教育咨询有限公司",
+      "title": "内容运营专员",
+      "city": "成都",
+      "district": "青羊区骡马市",
+      "url": "https://example.edu.cn/hr",
+      "email": "hr@example.edu.cn",
+      "salary": "5-7K",
+      "commute_minutes": 33,
+      "commute_note": "· 地铁 1 号线",
+      "weekend": "big_small",
+      "insurance": "none",
+      "scores": {
+        "match": 75,
+        "company": 60,
+        "work": 70,
+        "welfare": 45,
+        "fresh": 80,
+        "reputation": 55
+      },
+      "notes": "大小周 + 无社保，两条都踩线",
+      "risks": ["大小周", "招聘信息显示无社保"]
+    },
+    {
+      "id": "demo-005",
+      "company": "示例数字创意有限公司",
+      "title": "AI 短片制作",
+      "city": "杭州",
+      "district": "余杭区未来科技城",
+      "url": "https://example.io/recruit",
+      "email": "talent@example.io",
+      "salary": "9-13K",
+      "commute_minutes": 41,
+      "commute_note": "· 地铁 5 号线",
+      "weekend": "double",
+      "insurance": "full",
+      "scores": {
+        "match": 85,
+        "company": 78,
+        "work": 86,
+        "welfare": 82,
+        "fresh": 88,
+        "reputation": 72
+      },
+      "notes": "外地岗位，需在邮件正文说明可到现场办公",
+      "risks": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 测试与运行产物
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# 本地数据 —— 绝不入库
+# 求职数据包含简历、联系方式、投递记录等个人信息，必须留在本地
+data/
+*.sqlite3
+*.db
+config.json
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
